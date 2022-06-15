@@ -5,14 +5,12 @@
 //     return Math.floor(Math.random() * (256 - 1) + 1);
 // }
 // function generateBlocksInterval() {
-//     setTimeout(()=> {
 //         container.style.display = "flex";
 //         setInterval(() => {
 //             for(item of squareCollection){
 //                 item.style.backgroundColor = `rgb(${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()}`;
 //             }
 //         }, 1000);
-//     }, 3000);
 // }
 // generateBlocksInterval();
 
@@ -30,13 +28,11 @@ function getRandomColor() {
     return Math.floor(Math.random() * (256 - 1) + 1);
 }
 function generateBlocksInterval() {
-    setTimeout(()=> {
         container.style.display = "flex";
         setInterval(() => {
             for(item of squareCollection){
                 item.style.backgroundColor = `rgb(${getRandomColor()}, ${getRandomColor()}, ${getRandomColor()}`;
             }
         }, 1000);
-    }, 3000);
 }
 generateBlocksInterval();
